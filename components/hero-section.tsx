@@ -51,7 +51,7 @@ export function HeroSection() {
       </div>
 
       {/* Team names — top left corner */}
-      <div className="absolute top-8 left-6 md:left-28 flex flex-col gap-1.5">
+      <div className="absolute bottom-8 right-6 md:right-12 flex flex-col gap-1.5 items-end">
         {team.map((member) => (
           <div key={member.name} className="flex items-baseline gap-3">
             <span className="font-mono text-[10px] text-foreground/70 uppercase tracking-widest">{member.name}</span>
