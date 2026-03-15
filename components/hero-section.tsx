@@ -51,7 +51,7 @@ export function HeroSection() {
       </div>
 
       {/* Team names — top left corner */}
-      <div className="absolute bottom-8 right-6 md:right-12 flex flex-col gap-1.5 items-end">
+      <div className="absolute bottom-20 md:bottom-24 right-6 md:right-12 flex flex-col gap-1.5 items-end">
         {team.map((member) => (
           <div key={member.name} className="flex items-baseline gap-3">
             <span className="font-mono text-[10px] text-foreground/70 uppercase tracking-widest">{member.name}</span>
@@ -98,7 +98,7 @@ export function HeroSection() {
       </div>
 
       {/* Floating info tag */}
-      <div className="absolute bottom-8 right-8 md:bottom-12 md:right-12">
+      <div className="absolute bottom-8 left-6 md:bottom-12 md:left-28">
         <div className="border border-border px-4 py-2 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
           v.01 / Bengaluru 2025
         </div>
